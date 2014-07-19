@@ -1,0 +1,66 @@
+{
+  "name": "namespace-data",
+  "description": "Read data files and extend the data from each onto an object or objects named using the given string or [propstring].",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/namespace-data",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/namespace-data.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/namespace-data/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jonschlinkert/namespace-data/blob/master/LICENSE-MIT"
+    }
+  ],
+  "keywords": [
+    "array",
+    "basename",
+    "data",
+    "dir",
+    "dirname",
+    "ext",
+    "extname",
+    "file",
+    "filepath",
+    "files",
+    "name",
+    "namespace",
+    "node",
+    "node.js",
+    "object",
+    "parse",
+    "path",
+    "properties",
+    "property",
+    "read"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "^4.0.4",
+    "verb": ">= 0.2.6",
+    "verb-tag-jscomments": ">= 0.1.4"
+  },
+  "dependencies": {
+    "arrayify-compact": "^0.1.0",
+    "globby": "^0.1.1",
+    "lodash": "^2.4.1",
+    "parse-filepath": "^0.3.0",
+    "read-data": "^0.1.1",
+    "replacements": "^0.1.3"
+  }
+}
